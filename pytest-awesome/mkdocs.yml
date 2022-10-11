@@ -1,0 +1,10 @@
+site_name: pytest-awesome
+site_description: A simple plugin to use with pytest
+site_author: Andreas Pelme
+
+theme: readthedocs
+
+repo_url: https://github.com/pelme/pytest-awesome
+
+pages:
+- Home: index.md
