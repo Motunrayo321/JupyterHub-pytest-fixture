@@ -23,7 +23,7 @@ def bar(request):
 
 
 @pytest.fixture
-def min_password_len():
+def test_first_use():
 	""" Returns a firstuseauthenticator object with minimum length of 10. """
 	
 	#Initialize FirstUseAuthenticator object.
