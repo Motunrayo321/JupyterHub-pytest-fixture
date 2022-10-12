@@ -12,17 +12,17 @@ def read(fname):
 
 
 setup(
-    name='pytest-awesome',
+    name='pytest-fix',
     version='0.1.0',
-    author='Andreas Pelme',
-    author_email='andreas@pelme.se',
-    maintainer='Andreas Pelme',
-    maintainer_email='andreas@pelme.se',
-    license='BSD-3',
-    url='https://github.com/pelme/pytest-awesome',
+    author='Sanyaolu Motunrayo',
+    author_email='samlizzy353@gmail.com',
+    maintainer='Sanyaolu Motunrayo',
+    maintainer_email='samlizzy353@gmail.com',
+    license='MIT',
+    url='https://github.com/Motunrayo321/pytest-fix',
     description='A simple plugin to use with pytest',
     long_description=read('README.rst'),
-    py_modules=['pytest_awesome'],
+    py_modules=['pytest_fix'],
     python_requires='>=3.5',
     install_requires=['pytest>=3.5.0'],
     classifiers=[
@@ -40,11 +40,11 @@ setup(
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy',
         'Operating System :: OS Independent',
-        'License :: OSI Approved :: BSD License',
+        'License :: OSI Approved :: MIT License',
     ],
     entry_points={
         'pytest11': [
-            'awesome = pytest_awesome',
+            'pytest_fix = pytest_fix',
         ],
     },
 )
